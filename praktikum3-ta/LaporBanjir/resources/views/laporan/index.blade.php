@@ -5,7 +5,7 @@
 @section('content')
     <h1>Daftar Laporan Banjir</h1>
     <p class="muted">
-        Status genangan: kurang dari 30 cm = Waspada, 30&ndash;70 cm = Siaga, lebih dari 70 cm = Awas.
+        Status genangan: kurang dari 30 cm = Waspada, 30 - 70 cm = Siaga, lebih dari 70 cm = Bahaya.
     </p>
 
     @forelse ($laporans as $laporan)

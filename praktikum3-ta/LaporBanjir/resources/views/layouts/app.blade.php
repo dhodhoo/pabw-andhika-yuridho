@@ -135,7 +135,7 @@
     </main>
 
     <footer class="site-footer">
-        &copy; 2026 BPBD Kabupaten Bandung &mdash; Sistem Pelaporan Banjir LaporBanjir
+        &copy; 2026 BPBD Kabupaten Bandung - Sistem Pelaporan Banjir LaporBanjir
     </footer>
 </body>
 </html>

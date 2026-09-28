@@ -7,7 +7,7 @@
         @elseif ($laporan['tinggi_genangan'] <= 70)
             <span class="badge siaga">Siaga</span>
         @else
-            <span class="badge awas">Awas</span>
+            <span class="badge awas">Bahaya</span>
         @endif
     </div>
 

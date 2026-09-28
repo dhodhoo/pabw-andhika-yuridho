@@ -6,17 +6,13 @@ use Illuminate\Http\Request;
 
 class LaporanController extends Controller
 {
-    /**
-     * Tampilkan form pelaporan banjir.
-     */
+    //Tampilkan form pelaporan banjir.
     public function create()
     {
         return view('laporan.create');
     }
 
-    /**
-     * Terima data form (POST) lalu tampilkan halaman konfirmasi.
-     */
+    //Terima data form (POST) lalu tampilkan halaman konfirmasi.
     public function store(Request $request)
     {
         $laporan = [
@@ -28,9 +24,7 @@ class LaporanController extends Controller
         return view('laporan.konfirmasi', compact('laporan'));
     }
 
-    /**
-     * Daftar laporan (data contoh, tanpa database).
-     */
+    //Daftar laporan (data contoh, tanpa database).
     public function index()
     {
         $laporans = [
